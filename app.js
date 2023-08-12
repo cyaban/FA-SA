@@ -1,3 +1,6 @@
+if (getComputedStyle(play).display === "block") {
+  // Rest of your code...
+}
 function play(game) {
   document.getElementById('cursor').style.display = "none";
   var play = document.getElementById('play');
